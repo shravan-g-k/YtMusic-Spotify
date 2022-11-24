@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-
+# -*- coding: utf-8 
 # Sample Python code for youtube.playlistItems.list
 # See instructions for running these code samples locally:
 # https://developers.google.com/explorer-help/code-samples#python
