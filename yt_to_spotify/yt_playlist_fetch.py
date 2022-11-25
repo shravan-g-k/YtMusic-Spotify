@@ -4,14 +4,14 @@
 # https://developers.google.com/explorer-help/code-samples#python
 
 import os
-
+from json import dumps
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
 import googleapiclient.errors
 
 scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
 
-def main():
+def get_playlist():
     # Disable OAuthlib's HTTPS verification when running locally.
     # *DO NOT* leave this option enabled in production.
     # os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
@@ -32,8 +32,21 @@ def main():
         playlistId="PLkOtn-AIw1wJpmuEcckRb9n4y1TlmdPbu"
     )
     response = request.execute()
+    # print(type(response))
+    return response
 
-    print(response)
+    # json_response = dumps(response)
+    # with open("playlist.json" , "w") as file:
+    #     file.write(json_response)
+playlist_items = []
+def get_item_name():
+    response = get_playlist()
+    for i in response["items"]:
+        playlist_items.append(i["snippet"]["title"])
+    print(playlist_items)
+
+
+
 
 if __name__ == "__main__":
-    main()
+    get_item_name()
