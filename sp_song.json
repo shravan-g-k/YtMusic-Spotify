@@ -1,0 +1,852 @@
+{
+    "tracks": {
+        "href": "https://api.spotify.com/v1/search?query=marethuhoyithe&type=track&market=IN&offset=0&limit=10",
+        "items": [
+            {
+                "album": {
+                    "album_type": "single",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2YErwsGrRhP3QKkposNoP7"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/2YErwsGrRhP3QKkposNoP7",
+                            "id": "2YErwsGrRhP3QKkposNoP7",
+                            "name": "Abhishek Ambareesh",
+                            "type": "artist",
+                            "uri": "spotify:artist:2YErwsGrRhP3QKkposNoP7"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0Sm1v0Ics0KSIAkIkdLEmG"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0Sm1v0Ics0KSIAkIkdLEmG",
+                            "id": "0Sm1v0Ics0KSIAkIkdLEmG",
+                            "name": "Tanya Hope",
+                            "type": "artist",
+                            "uri": "spotify:artist:0Sm1v0Ics0KSIAkIkdLEmG"
+                        }
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/3NdlLiesCdwoJ6u0bInh4I"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/3NdlLiesCdwoJ6u0bInh4I",
+                    "id": "3NdlLiesCdwoJ6u0bInh4I",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273b885ca942f909d5a8229bdcb",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02b885ca942f909d5a8229bdcb",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851b885ca942f909d5a8229bdcb",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Amar",
+                    "release_date": "2019-04-06",
+                    "release_date_precision": "day",
+                    "total_tracks": 6,
+                    "type": "album",
+                    "uri": "spotify:album:3NdlLiesCdwoJ6u0bInh4I"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/1plObTufEAfeL1hk8Qz24v"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/1plObTufEAfeL1hk8Qz24v",
+                        "id": "1plObTufEAfeL1hk8Qz24v",
+                        "name": "Sanjith Hegde",
+                        "type": "artist",
+                        "uri": "spotify:artist:1plObTufEAfeL1hk8Qz24v"
+                    }
+                ],
+                "disc_number": 1,
+                "duration_ms": 226566,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "INA441900080"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/29UQmQuh4amJjCK3PdERSv"
+                },
+                "href": "https://api.spotify.com/v1/tracks/29UQmQuh4amJjCK3PdERSv",
+                "id": "29UQmQuh4amJjCK3PdERSv",
+                "is_local": false,
+                "is_playable": true,
+                "name": "Marethuhoyithe",
+                "popularity": 50,
+                "preview_url": "https://p.scdn.co/mp3-preview/372ef0255f0220942990a50a0ff01b027d8ca2fd?cid=17a02e14ae594f5a97d77cabe7c2ee3a",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:29UQmQuh4amJjCK3PdERSv"
+            },
+            {
+                "album": {
+                    "album_type": "single",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7LnwWFXxll1g0R4MTJCUEH"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/7LnwWFXxll1g0R4MTJCUEH",
+                            "id": "7LnwWFXxll1g0R4MTJCUEH",
+                            "name": "Vidhu Prathap",
+                            "type": "artist",
+                            "uri": "spotify:artist:7LnwWFXxll1g0R4MTJCUEH"
+                        }
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/5U4AozwVEoyMCdh3h6LjGl"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/5U4AozwVEoyMCdh3h6LjGl",
+                    "id": "5U4AozwVEoyMCdh3h6LjGl",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273bdd6577da4f2c4f06bf13ff3",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02bdd6577da4f2c4f06bf13ff3",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851bdd6577da4f2c4f06bf13ff3",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Marannittumenthino (Recreated Version)",
+                    "release_date": "2021-10-14",
+                    "release_date_precision": "day",
+                    "total_tracks": 1,
+                    "type": "album",
+                    "uri": "spotify:album:5U4AozwVEoyMCdh3h6LjGl"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/7LnwWFXxll1g0R4MTJCUEH"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/7LnwWFXxll1g0R4MTJCUEH",
+                        "id": "7LnwWFXxll1g0R4MTJCUEH",
+                        "name": "Vidhu Prathap",
+                        "type": "artist",
+                        "uri": "spotify:artist:7LnwWFXxll1g0R4MTJCUEH"
+                    }
+                ],
+                "disc_number": 1,
+                "duration_ms": 105974,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "FRX762162869"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/6kCoxRrexopbNe65P9bu8k"
+                },
+                "href": "https://api.spotify.com/v1/tracks/6kCoxRrexopbNe65P9bu8k",
+                "id": "6kCoxRrexopbNe65P9bu8k",
+                "is_local": false,
+                "is_playable": true,
+                "name": "Marannittumenthino (Recreated Version)",
+                "popularity": 45,
+                "preview_url": "https://p.scdn.co/mp3-preview/54ac2a6642049f61ae7d8d9a9651532062053677?cid=17a02e14ae594f5a97d77cabe7c2ee3a",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:6kCoxRrexopbNe65P9bu8k"
+            },
+            {
+                "album": {
+                    "album_type": "album",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/32CTCp0symi0mqjRqxxiaD"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/32CTCp0symi0mqjRqxxiaD",
+                            "id": "32CTCp0symi0mqjRqxxiaD",
+                            "name": "Madan - Mallu",
+                            "type": "artist",
+                            "uri": "spotify:artist:32CTCp0symi0mqjRqxxiaD"
+                        }
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/00BvTmh6GqRFzdLjYLo7gs"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/00BvTmh6GqRFzdLjYLo7gs",
+                    "id": "00BvTmh6GqRFzdLjYLo7gs",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b27326231fb6d71a77c7085369a6",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e0226231fb6d71a77c7085369a6",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d0000485126231fb6d71a77c7085369a6",
+                            "width": 64
+                        }
+                    ],
+                    "name": "21 Hits (Tunes From Popular Kannada Films)",
+                    "release_date": "1988-01-01",
+                    "release_date_precision": "day",
+                    "total_tracks": 21,
+                    "type": "album",
+                    "uri": "spotify:album:00BvTmh6GqRFzdLjYLo7gs"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/4YWlfISrTql8cDjNYWfqYp"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/4YWlfISrTql8cDjNYWfqYp",
+                        "id": "4YWlfISrTql8cDjNYWfqYp",
+                        "name": "Madan",
+                        "type": "artist",
+                        "uri": "spotify:artist:4YWlfISrTql8cDjNYWfqYp"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/5E4cGQHWFg7LO64NBOMK0H"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/5E4cGQHWFg7LO64NBOMK0H",
+                        "id": "5E4cGQHWFg7LO64NBOMK0H",
+                        "name": "Mallu",
+                        "type": "artist",
+                        "uri": "spotify:artist:5E4cGQHWFg7LO64NBOMK0H"
+                    }
+                ],
+                "disc_number": 1,
+                "duration_ms": 119520,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "INS172101851"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/35ux1HJJg740VsMgwGgrWn"
+                },
+                "href": "https://api.spotify.com/v1/tracks/35ux1HJJg740VsMgwGgrWn",
+                "id": "35ux1HJJg740VsMgwGgrWn",
+                "is_local": false,
+                "is_playable": true,
+                "name": "Olavina Udugore Kodalenu",
+                "popularity": 8,
+                "preview_url": "https://p.scdn.co/mp3-preview/8cd2cfeafca2b8965db4b502912e75b14c4f6a78?cid=17a02e14ae594f5a97d77cabe7c2ee3a",
+                "track_number": 4,
+                "type": "track",
+                "uri": "spotify:track:35ux1HJJg740VsMgwGgrWn"
+            },
+            {
+                "album": {
+                    "album_type": "album",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/42k1aOQmLqy5YQmqJ2zq8s"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/42k1aOQmLqy5YQmqJ2zq8s",
+                            "id": "42k1aOQmLqy5YQmqJ2zq8s",
+                            "name": "Shaan Rahman",
+                            "type": "artist",
+                            "uri": "spotify:artist:42k1aOQmLqy5YQmqJ2zq8s"
+                        }
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/4vGQjtQFNiBSUPmoymtN6Y"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/4vGQjtQFNiBSUPmoymtN6Y",
+                    "id": "4vGQjtQFNiBSUPmoymtN6Y",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2732c1576bf13263140f4d45081",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e022c1576bf13263140f4d45081",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048512c1576bf13263140f4d45081",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Thattathin Marayathu (Original Motion Picture Soundtrack)",
+                    "release_date": "2012-07-31",
+                    "release_date_precision": "day",
+                    "total_tracks": 8,
+                    "type": "album",
+                    "uri": "spotify:album:4vGQjtQFNiBSUPmoymtN6Y"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/7wkeZcQtvDAeGvrTQO2hfK"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/7wkeZcQtvDAeGvrTQO2hfK",
+                        "id": "7wkeZcQtvDAeGvrTQO2hfK",
+                        "name": "Sachin Warrier",
+                        "type": "artist",
+                        "uri": "spotify:artist:7wkeZcQtvDAeGvrTQO2hfK"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/2jLNoI1JBkPjnIa0qCWLVa"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/2jLNoI1JBkPjnIa0qCWLVa",
+                        "id": "2jLNoI1JBkPjnIa0qCWLVa",
+                        "name": "Ramya Nambessan",
+                        "type": "artist",
+                        "uri": "spotify:artist:2jLNoI1JBkPjnIa0qCWLVa"
+                    }
+                ],
+                "disc_number": 1,
+                "duration_ms": 245133,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "INS321204318"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/3j56pKoPJO2Jhr4SFN1M1S"
+                },
+                "href": "https://api.spotify.com/v1/tracks/3j56pKoPJO2Jhr4SFN1M1S",
+                "id": "3j56pKoPJO2Jhr4SFN1M1S",
+                "is_local": false,
+                "is_playable": true,
+                "name": "Muthuchippi",
+                "popularity": 55,
+                "preview_url": "https://p.scdn.co/mp3-preview/636a8c35e7510fc6cd43336566dfc40ab43f6584?cid=17a02e14ae594f5a97d77cabe7c2ee3a",
+                "track_number": 2,
+                "type": "track",
+                "uri": "spotify:track:3j56pKoPJO2Jhr4SFN1M1S"
+            },
+            {
+                "album": {
+                    "album_type": "album",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6ALy9cwte5hjLcjAjCxu4R"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6ALy9cwte5hjLcjAjCxu4R",
+                            "id": "6ALy9cwte5hjLcjAjCxu4R",
+                            "name": "J. Anoop Seelin",
+                            "type": "artist",
+                            "uri": "spotify:artist:6ALy9cwte5hjLcjAjCxu4R"
+                        }
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/4LXLSK87gbo38KcDazmX0j"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/4LXLSK87gbo38KcDazmX0j",
+                    "id": "4LXLSK87gbo38KcDazmX0j",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273fdc9506ff4b2c6097b7a6d9f",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02fdc9506ff4b2c6097b7a6d9f",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851fdc9506ff4b2c6097b7a6d9f",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Dayavittu Gamanisi (Original Motion Picture Soundtrack)",
+                    "release_date": "2017-10-31",
+                    "release_date_precision": "day",
+                    "total_tracks": 8,
+                    "type": "album",
+                    "uri": "spotify:album:4LXLSK87gbo38KcDazmX0j"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/7971bViwojxzlmhpXvZlPZ"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/7971bViwojxzlmhpXvZlPZ",
+                        "id": "7971bViwojxzlmhpXvZlPZ",
+                        "name": "Vasishta N. Simha",
+                        "type": "artist",
+                        "uri": "spotify:artist:7971bViwojxzlmhpXvZlPZ"
+                    }
+                ],
+                "disc_number": 1,
+                "duration_ms": 165647,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "IND291701723"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/72rgJcAeDq9PJc1doajZtq"
+                },
+                "href": "https://api.spotify.com/v1/tracks/72rgJcAeDq9PJc1doajZtq",
+                "id": "72rgJcAeDq9PJc1doajZtq",
+                "is_local": false,
+                "is_playable": true,
+                "name": "Marete Hodenu (Unplugged)",
+                "popularity": 43,
+                "preview_url": "https://p.scdn.co/mp3-preview/a2ef61f6dcf921fcb61193e411a09c4a7268ec6e?cid=17a02e14ae594f5a97d77cabe7c2ee3a",
+                "track_number": 7,
+                "type": "track",
+                "uri": "spotify:track:72rgJcAeDq9PJc1doajZtq"
+            },
+            {
+                "album": {
+                    "album_type": "single",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5jX2iG007T8zGsQiuuJY40"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5jX2iG007T8zGsQiuuJY40",
+                            "id": "5jX2iG007T8zGsQiuuJY40",
+                            "name": "Sundaramurthy K.S.",
+                            "type": "artist",
+                            "uri": "spotify:artist:5jX2iG007T8zGsQiuuJY40"
+                        }
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/59uRad1RnuKRaqvakiJ4bc"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/59uRad1RnuKRaqvakiJ4bc",
+                    "id": "59uRad1RnuKRaqvakiJ4bc",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273c95a9ad744c4beac23cb176a",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02c95a9ad744c4beac23cb176a",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851c95a9ad744c4beac23cb176a",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Airaa (Original Motion Picture Soundtrack)",
+                    "release_date": "2019-02-02",
+                    "release_date_precision": "day",
+                    "total_tracks": 3,
+                    "type": "album",
+                    "uri": "spotify:album:59uRad1RnuKRaqvakiJ4bc"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/5jX2iG007T8zGsQiuuJY40"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/5jX2iG007T8zGsQiuuJY40",
+                        "id": "5jX2iG007T8zGsQiuuJY40",
+                        "name": "Sundaramurthy K.S.",
+                        "type": "artist",
+                        "uri": "spotify:artist:5jX2iG007T8zGsQiuuJY40"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/2E5sS9FjfJBCgckaoajQSm"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/2E5sS9FjfJBCgckaoajQSm",
+                        "id": "2E5sS9FjfJBCgckaoajQSm",
+                        "name": "Padmapriya Raghavan",
+                        "type": "artist",
+                        "uri": "spotify:artist:2E5sS9FjfJBCgckaoajQSm"
+                    }
+                ],
+                "disc_number": 1,
+                "duration_ms": 267291,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "INT201901947"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/6I7GNd3UW45TAxG49R4HtX"
+                },
+                "href": "https://api.spotify.com/v1/tracks/6I7GNd3UW45TAxG49R4HtX",
+                "id": "6I7GNd3UW45TAxG49R4HtX",
+                "is_local": false,
+                "is_playable": true,
+                "name": "Megathoodham",
+                "popularity": 57,
+                "preview_url": "https://p.scdn.co/mp3-preview/7b0826c24a111c06bbd5dbf66dccee6d040b6ab0?cid=17a02e14ae594f5a97d77cabe7c2ee3a",
+                "track_number": 2,
+                "type": "track",
+                "uri": "spotify:track:6I7GNd3UW45TAxG49R4HtX"
+            },
+            {
+                "album": {
+                    "album_type": "album",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3PjvC3vaZ6wh5FK6PZ4Dd5"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3PjvC3vaZ6wh5FK6PZ4Dd5",
+                            "id": "3PjvC3vaZ6wh5FK6PZ4Dd5",
+                            "name": "B. Ajaneesh Loknath",
+                            "type": "artist",
+                            "uri": "spotify:artist:3PjvC3vaZ6wh5FK6PZ4Dd5"
+                        }
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/52fH45IS38CqqnGvCGNBwf"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/52fH45IS38CqqnGvCGNBwf",
+                    "id": "52fH45IS38CqqnGvCGNBwf",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273d9405e14a51f0c808d91a036",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02d9405e14a51f0c808d91a036",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851d9405e14a51f0c808d91a036",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Smashing Hits of Sanjith Hegde",
+                    "release_date": "2020-09-30",
+                    "release_date_precision": "day",
+                    "total_tracks": 25,
+                    "type": "album",
+                    "uri": "spotify:album:52fH45IS38CqqnGvCGNBwf"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/1plObTufEAfeL1hk8Qz24v"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/1plObTufEAfeL1hk8Qz24v",
+                        "id": "1plObTufEAfeL1hk8Qz24v",
+                        "name": "Sanjith Hegde",
+                        "type": "artist",
+                        "uri": "spotify:artist:1plObTufEAfeL1hk8Qz24v"
+                    }
+                ],
+                "disc_number": 1,
+                "duration_ms": 230000,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "IND292000356"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/6yEYXzuGH0tAeGWp1zaH0A"
+                },
+                "href": "https://api.spotify.com/v1/tracks/6yEYXzuGH0tAeGWp1zaH0A",
+                "id": "6yEYXzuGH0tAeGWp1zaH0A",
+                "is_local": false,
+                "is_playable": true,
+                "name": "Shaakuntle Sikkalu (From \"Naduve Antaravirali\")",
+                "popularity": 51,
+                "preview_url": "https://p.scdn.co/mp3-preview/5699a7a73cba904664e958a6038abbab0f94e447?cid=17a02e14ae594f5a97d77cabe7c2ee3a",
+                "track_number": 2,
+                "type": "track",
+                "uri": "spotify:track:6yEYXzuGH0tAeGWp1zaH0A"
+            },
+            {
+                "album": {
+                    "album_type": "single",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4zCH9qm4R2DADamUHMCa6O"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/4zCH9qm4R2DADamUHMCa6O",
+                            "id": "4zCH9qm4R2DADamUHMCa6O",
+                            "name": "Anirudh Ravichander",
+                            "type": "artist",
+                            "uri": "spotify:artist:4zCH9qm4R2DADamUHMCa6O"
+                        }
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/5g4gqBANFcdQ7G5zjGddvl"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/5g4gqBANFcdQ7G5zjGddvl",
+                    "id": "5g4gqBANFcdQ7G5zjGddvl",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2737de3e593378a463177b04c70",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e027de3e593378a463177b04c70",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048517de3e593378a463177b04c70",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Maari (Original Motion Picture Soundtrack)",
+                    "release_date": "2015-06-07",
+                    "release_date_precision": "day",
+                    "total_tracks": 6,
+                    "type": "album",
+                    "uri": "spotify:album:5g4gqBANFcdQ7G5zjGddvl"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/4zCH9qm4R2DADamUHMCa6O"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/4zCH9qm4R2DADamUHMCa6O",
+                        "id": "4zCH9qm4R2DADamUHMCa6O",
+                        "name": "Anirudh Ravichander",
+                        "type": "artist",
+                        "uri": "spotify:artist:4zCH9qm4R2DADamUHMCa6O"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/2F3KtUVtrt2GLjcl6pB4cz"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/2F3KtUVtrt2GLjcl6pB4cz",
+                        "id": "2F3KtUVtrt2GLjcl6pB4cz",
+                        "name": "Dhanush",
+                        "type": "artist",
+                        "uri": "spotify:artist:2F3KtUVtrt2GLjcl6pB4cz"
+                    }
+                ],
+                "disc_number": 1,
+                "duration_ms": 230252,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "INS171500888"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/7w4kFO2slzHCu1qEOMaPkl"
+                },
+                "href": "https://api.spotify.com/v1/tracks/7w4kFO2slzHCu1qEOMaPkl",
+                "id": "7w4kFO2slzHCu1qEOMaPkl",
+                "is_local": false,
+                "is_playable": true,
+                "name": "Maari Thara Local - Here Comes Maari",
+                "popularity": 57,
+                "preview_url": "https://p.scdn.co/mp3-preview/bd113a39e66c5a2c30ca7af0a70ea44b43918028?cid=17a02e14ae594f5a97d77cabe7c2ee3a",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:7w4kFO2slzHCu1qEOMaPkl"
+            },
+            {
+                "album": {
+                    "album_type": "single",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6AiX12wXdXFoGJ2vk8zBjy"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6AiX12wXdXFoGJ2vk8zBjy",
+                            "id": "6AiX12wXdXFoGJ2vk8zBjy",
+                            "name": "Yuvan Shankar Raja",
+                            "type": "artist",
+                            "uri": "spotify:artist:6AiX12wXdXFoGJ2vk8zBjy"
+                        }
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/5DXifmf9OSaHpOl3zqxTTg"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/5DXifmf9OSaHpOl3zqxTTg",
+                    "id": "5DXifmf9OSaHpOl3zqxTTg",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2731047b85c997ff1499bd6e92f",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e021047b85c997ff1499bd6e92f",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048511047b85c997ff1499bd6e92f",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Maari 2 (Original Motion Picture Soundtrack)",
+                    "release_date": "2018-12-11",
+                    "release_date_precision": "day",
+                    "total_tracks": 3,
+                    "type": "album",
+                    "uri": "spotify:album:5DXifmf9OSaHpOl3zqxTTg"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6AiX12wXdXFoGJ2vk8zBjy"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6AiX12wXdXFoGJ2vk8zBjy",
+                        "id": "6AiX12wXdXFoGJ2vk8zBjy",
+                        "name": "Yuvan Shankar Raja",
+                        "type": "artist",
+                        "uri": "spotify:artist:6AiX12wXdXFoGJ2vk8zBjy"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/2F3KtUVtrt2GLjcl6pB4cz"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/2F3KtUVtrt2GLjcl6pB4cz",
+                        "id": "2F3KtUVtrt2GLjcl6pB4cz",
+                        "name": "Dhanush",
+                        "type": "artist",
+                        "uri": "spotify:artist:2F3KtUVtrt2GLjcl6pB4cz"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/23FJvNYt7vCPHtpOQUzDN0"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/23FJvNYt7vCPHtpOQUzDN0",
+                        "id": "23FJvNYt7vCPHtpOQUzDN0",
+                        "name": "Chinna Ponnu",
+                        "type": "artist",
+                        "uri": "spotify:artist:23FJvNYt7vCPHtpOQUzDN0"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/6mHtkNCvRoFV9XMzvjSF1u"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/6mHtkNCvRoFV9XMzvjSF1u",
+                        "id": "6mHtkNCvRoFV9XMzvjSF1u",
+                        "name": "V.M. Mahalingam",
+                        "type": "artist",
+                        "uri": "spotify:artist:6mHtkNCvRoFV9XMzvjSF1u"
+                    }
+                ],
+                "disc_number": 1,
+                "duration_ms": 226297,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "IND291813110"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/6ix68x3LqXv1teM1doynXU"
+                },
+                "href": "https://api.spotify.com/v1/tracks/6ix68x3LqXv1teM1doynXU",
+                "id": "6ix68x3LqXv1teM1doynXU",
+                "is_local": false,
+                "is_playable": true,
+                "name": "Maari Gethu",
+                "popularity": 44,
+                "preview_url": "https://p.scdn.co/mp3-preview/a577704faf67938a03b0a5d06d6c8090c699c7a0?cid=17a02e14ae594f5a97d77cabe7c2ee3a",
+                "track_number": 2,
+                "type": "track",
+                "uri": "spotify:track:6ix68x3LqXv1teM1doynXU"
+            },
+            {
+                "album": {
+                    "album_type": "album",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5TB837uKG65w8Jnz5D0bS5"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/5TB837uKG65w8Jnz5D0bS5",
+                            "id": "5TB837uKG65w8Jnz5D0bS5",
+                            "name": "Vidyasagar",
+                            "type": "artist",
+                            "uri": "spotify:artist:5TB837uKG65w8Jnz5D0bS5"
+                        }
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/3k1BRO6AZutQWReAErUfUY"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/3k1BRO6AZutQWReAErUfUY",
+                    "id": "3k1BRO6AZutQWReAErUfUY",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273e33a7e964ee13ed1ca5bd773",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02e33a7e964ee13ed1ca5bd773",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851e33a7e964ee13ed1ca5bd773",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Chandrolsavam (Original Motion Picture Soundtrack)",
+                    "release_date": "2005-07-02",
+                    "release_date_precision": "day",
+                    "total_tracks": 7,
+                    "type": "album",
+                    "uri": "spotify:album:3k1BRO6AZutQWReAErUfUY"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/2wPsNCwhEGb0KvChZ5DD52"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/2wPsNCwhEGb0KvChZ5DD52",
+                        "id": "2wPsNCwhEGb0KvChZ5DD52",
+                        "name": "K. J. Yesudas",
+                        "type": "artist",
+                        "uri": "spotify:artist:2wPsNCwhEGb0KvChZ5DD52"
+                    }
+                ],
+                "disc_number": 1,
+                "duration_ms": 385436,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "INS320501362"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/4sbKkwNhIF1BZhfg7AQMnI"
+                },
+                "href": "https://api.spotify.com/v1/tracks/4sbKkwNhIF1BZhfg7AQMnI",
+                "id": "4sbKkwNhIF1BZhfg7AQMnI",
+                "is_local": false,
+                "is_playable": true,
+                "name": "Muttahtethum",
+                "popularity": 51,
+                "preview_url": "https://p.scdn.co/mp3-preview/ddeb9ae2aa40c6c3d9eefd35b829181308f3847b?cid=17a02e14ae594f5a97d77cabe7c2ee3a",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:4sbKkwNhIF1BZhfg7AQMnI"
+            }
+        ],
+        "limit": 10,
+        "next": "https://api.spotify.com/v1/search?query=marethuhoyithe&type=track&market=IN&offset=10&limit=10",
+        "offset": 0,
+        "previous": null,
+        "total": 1004
+    }
+}
