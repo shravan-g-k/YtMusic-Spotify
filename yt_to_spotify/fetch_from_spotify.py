@@ -4,7 +4,7 @@ from json import dumps, loads
 
 CLIENT_ID = "17a02e14ae594f5a97d77cabe7c2ee3a"
 CLIENT_SECRET = "49dd7ce7271c4b9a9c833a00bbcef22c"
-song_match = []
+
 
 
 # EMPTYING the json file every time the program is run
@@ -15,7 +15,9 @@ with open("sp_song.json", "w") as file:
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
     client_id=CLIENT_ID, client_secret=CLIENT_SECRET))
 
-def search_for_song(song:str):
+
+async def search_for_song(song: str) -> list[str]:
+    song_match = []
     # SEARCH for the song in spotofy
     response = sp.search(
         q=song, market="IN", type="track",limit=5)
@@ -38,6 +40,7 @@ def search_for_song(song:str):
         song_match.append(i["name"])
 
     return song_match
+    song_match = []
 
     
 
@@ -45,6 +48,6 @@ def search_for_song(song:str):
 
 
 
-if __name__ == "__main__":
-    search_for_song("shoorveer")
-    print(song_match)
+# if __name__ == "__main__":
+    # search_for_song("shoorveer")
+    # print(song_match)
