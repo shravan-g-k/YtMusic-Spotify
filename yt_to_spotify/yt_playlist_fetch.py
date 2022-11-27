@@ -11,7 +11,9 @@ import googleapiclient.errors
 
 scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
 
-def get_playlist():
+def _get_playlist():
+    """returns the json response from youtube API
+    """
     # Disable OAuthlib's HTTPS verification when running locally.
     # *DO NOT* leave this option enabled in production.
     # os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
@@ -29,24 +31,23 @@ def get_playlist():
 
     request = youtube.playlistItems().list(
         part="snippet",
+        maxResults=500,
         playlistId="PLkOtn-AIw1wJpmuEcckRb9n4y1TlmdPbu"
     )
     response = request.execute()
-    # print(type(response))
     return response
-
     # json_response = dumps(response)
     # with open("playlist.json" , "w") as file:
     #     file.write(json_response)
 playlist_items = []
+
 def get_item_name():
-    response = get_playlist()
+    """returns list os songs present in your youtube playlist
+    """
+    response = _get_playlist()
     for i in response["items"]:
         playlist_items.append(i["snippet"]["title"])
-    print(playlist_items)
-
-
-
-
-if __name__ == "__main__":
-    get_item_name()
+    return playlist_items
+    
+    
+print(get_item_name())
