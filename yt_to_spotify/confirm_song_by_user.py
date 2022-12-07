@@ -1,12 +1,15 @@
 from yt_playlist_fetch import get_item_name
-from fetch_from_spotify import search_for_song
+from fetch_from_spotify import search_for_song,get_uris
+from add_song_spotify import add_songs_to_playlist
 import asyncio
+
 youtube_songs = get_item_name()
 list_of_songs = {}
+list_of_uris = []
 async def add_songs_to_dict():
     for indx,i in enumerate(youtube_songs):
         songs = await search_for_song(i)
-        list_of_songs[i] = songs
+        list_of_songs[i] = songs[0]
         songs = []
     return list_of_songs
 
@@ -14,8 +17,8 @@ def get_confirmation():
     print("\nDoes the song written next to your playlist song match them ?")
     a = input("If yes PRESS 'Y'   else PRESS 'N' : ")
     if a == "Y":
-        #TODO:add the songs to soptifspotify
-        pass
+        print(list(list_of_songs.values()))
+        add_songs_to_playlist(get_uris())
     elif a == 'N':
         print("SORRY , Looks like there isnt any perfect match for the song you are looking for")
         rm_s_n  = int(input("Enter the Number present left to the song to remove it from adding to spotify : "))

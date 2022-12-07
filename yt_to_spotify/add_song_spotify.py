@@ -1,5 +1,5 @@
 from spotipy import util
-from consts import CLIENT_ID,CLIENT_SECRET
+from consts import CLIENT_ID,CLIENT_SECRET,USER_ID
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
@@ -12,5 +12,14 @@ sp = spotipy.Spotify(
         cache_path="token.txt"
     )
 )
-name = input("what would you like to name the playlist")
-sp.user_playlist_create(user="8kma5a2y9xte2uojzhz7qhtqy",name=name,public=False)
+
+def create_playlist() -> str:
+
+    name = input("what would you like to name the playlist : ")
+    playlist = sp.user_playlist_create(user=USER_ID,name=name,public=False,collaborative=False,description="test")
+    return playlist["id"]
+
+def add_songs_to_playlist(songs:list):
+    playlist_id = create_playlist()
+    sp.playlist_add_items(playlist_id=playlist_id,items=songs)
+
