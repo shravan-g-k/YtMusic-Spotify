@@ -20,7 +20,7 @@ async def search_for_song(song: str) -> list[str]:
     song_match = []
     # SEARCH for the song in spotofy
     response = sp.search(
-        q=song, market="IN", type="track",limit=5)
+        q=song, market="IN", type="track",limit=3)
 
     # CONVERTING response to json so that it can be written into the json file
     response_js = dumps(response)
