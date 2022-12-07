@@ -1,3 +1,16 @@
-# from spotipy import util
+from spotipy import util
+from consts import CLIENT_ID,CLIENT_SECRET
+import spotipy
+from spotipy.oauth2 import SpotifyOAuth
 
-# token = util.util.prompt_for_user_token(username,scope,client_id=client_id,client_secret=client_secret,redirect_uri='http://localhost/') 
+sp = spotipy.Spotify(
+    auth_manager=SpotifyOAuth(
+        scope="playlist-modify-private",
+        redirect_uri="http://localhost:9005/",
+        client_id=CLIENT_ID,
+        client_secret=CLIENT_SECRET,
+        cache_path="token.txt"
+    )
+)
+
+sp.user_playlist_create(user="8kma5a2y9xte2uojzhz7qhtqy",name="hello world",public=False)
