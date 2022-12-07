@@ -12,5 +12,5 @@ sp = spotipy.Spotify(
         cache_path="token.txt"
     )
 )
-
-sp.user_playlist_create(user="8kma5a2y9xte2uojzhz7qhtqy",name="hello world",public=False)
+name = input("what would you like to name the playlist")
+sp.user_playlist_create(user="8kma5a2y9xte2uojzhz7qhtqy",name=name,public=False)
