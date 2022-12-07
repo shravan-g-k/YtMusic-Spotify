@@ -11,7 +11,7 @@ async def add_songs_to_dict():
     return list_of_songs
 
 def get_confirmation():
-    print("\nDoes the first song written next to your playlist song match them ?")
+    print("\nDoes the song written next to your playlist song match them ?")
     a = input("If yes PRESS 'Y'   else PRESS 'N' : ")
     if a == "Y":
         #TODO:add the songs to soptifspotify
