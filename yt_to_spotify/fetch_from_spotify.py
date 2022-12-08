@@ -1,7 +1,7 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from json import dumps, loads
-from consts import CLIENT_ID,CLIENT_SECRET
+from privates import CLIENT_ID,CLIENT_SECRET
 
 
 
