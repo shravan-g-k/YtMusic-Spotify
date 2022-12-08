@@ -11,9 +11,10 @@ from consts import SCOPES,API_SERVICE_NAME
 from privates import CLIENT_SECRET_FILE
 
 def _get_playlist():
-    playlist_id = input("Enter the playlist Id : ")
+    
     """returns the json response from youtube API
     """
+    playlist_id = input("Enter the playlist Id : ")
     # Disable OAuthlib's HTTPS verification when running locally.
     # *DO NOT* leave this option enabled in production.
     # os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"

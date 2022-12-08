@@ -15,6 +15,8 @@ sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
     client_id=CLIENT_ID, client_secret=CLIENT_SECRET))
 
 list_of_uri = []
+
+
 async def search_for_song(song: str) -> list[str]:
     song_match = []
     
@@ -46,4 +48,5 @@ async def search_for_song(song: str) -> list[str]:
     #WRITING the song in a json so that we can use it all across the project
 
 def get_uris():
+    """Return List of the spotify song URI's"""
     return list_of_uri

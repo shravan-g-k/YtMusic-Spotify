@@ -7,6 +7,7 @@ youtube_songs = get_item_name()
 list_of_songs = {}
 list_of_uris = []
 async def add_songs_to_dict():
+    """mapping songs to list_of_songs for output purpose"""
     for indx,i in enumerate(youtube_songs):
         songs = await search_for_song(i)
         list_of_songs[i] = songs[0]
@@ -14,6 +15,7 @@ async def add_songs_to_dict():
     return list_of_songs
 
 def get_confirmation():
+    """Gets confirmation from the user whearther the songs fetched math the songs searched in spotify"""
     print("\nDoes the song written next to your playlist song match them ?")
     a = input("If yes PRESS 'Y'   else PRESS 'N' : ")
     if a == "Y":
@@ -26,14 +28,16 @@ def get_confirmation():
         format_output()
 
 def format_output():
+    """Outputing the songs dictionary  """
     print("\t*** CONFIRMATION SECTION ***")
     for i,j in enumerate(list_of_songs):
         print(i,j,":",list_of_songs[j])
+        
     get_confirmation()
 
-async def main():
-    await add_songs_to_dict()
-    format_output()
+# async def initialize():
+#     await add_songs_to_dict()
+#     format_output()
 
 
-asyncio.run(main())
+# asyncio.run(main())
