@@ -3,15 +3,15 @@
 # See instructions for running these code samples locally:
 # https://developers.google.com/explorer-help/code-samples#python
 
-import os
 from json import dumps
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
 import googleapiclient.errors
-from consts import SCOPES,API_SERVICE_NAME,CLIENT_SECRET_FILE
-
+from consts import SCOPES,API_SERVICE_NAME
+from privates import CLIENT_SECRET_FILE
 
 def _get_playlist():
+    playlist_id = input("Enter the playlist Id : ")
     """returns the json response from youtube API
     """
     # Disable OAuthlib's HTTPS verification when running locally.
@@ -31,8 +31,8 @@ def _get_playlist():
     request = youtube.playlistItems().list(
         part="snippet",
         maxResults=500,
-        playlistId="PLkOtn-AIw1wJpmuEcckRb9n4y1TlmdPbu"
-    )
+        playlistId=playlist_id
+           )
     response = request.execute()
     return response
     # json_response = dumps(response)

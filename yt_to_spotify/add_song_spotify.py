@@ -1,5 +1,5 @@
 from spotipy import util
-from consts import CLIENT_ID,CLIENT_SECRET,USER_ID
+from privates import CLIENT_ID,CLIENT_SECRET,USER_ID
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
