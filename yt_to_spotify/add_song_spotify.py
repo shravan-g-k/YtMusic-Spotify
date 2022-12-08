@@ -13,6 +13,7 @@ sp = spotipy.Spotify(
     )
 )
 
+
 def create_playlist() -> str:
 
     name = input("what would you like to name the playlist : ")
