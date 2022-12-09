@@ -49,5 +49,3 @@ def get_item_name():
         playlist_items.append(i["snippet"]["title"])
     return playlist_items
     
-    
-# print(get_item_name())

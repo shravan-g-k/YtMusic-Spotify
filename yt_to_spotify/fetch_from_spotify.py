@@ -45,7 +45,6 @@ async def search_for_song(song: str) -> list[str]:
     return song_match
 
 
-    #WRITING the song in a json so that we can use it all across the project
 
 def get_uris():
     """Return List of the spotify song URI's"""

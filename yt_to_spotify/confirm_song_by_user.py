@@ -1,7 +1,7 @@
 from yt_playlist_fetch import get_item_name
 from fetch_from_spotify import search_for_song,get_uris
 from add_song_spotify import add_songs_to_playlist
-import asyncio
+
 
 youtube_songs = get_item_name()
 list_of_songs = {}
@@ -26,18 +26,12 @@ def get_confirmation():
         rm_s_n  = int(input("Enter the Number present left to the song to remove it from adding to spotify : "))
         list_of_songs.pop(list(list_of_songs)[rm_s_n])
         format_output()
+    else:
+        raise TypeError
 
 def format_output():
     """Outputing the songs dictionary  """
     print("\t*** CONFIRMATION SECTION ***")
     for i,j in enumerate(list_of_songs):
         print(i,j,":",list_of_songs[j])
-        
     get_confirmation()
-
-# async def initialize():
-#     await add_songs_to_dict()
-#     format_output()
-
-
-# asyncio.run(main())
