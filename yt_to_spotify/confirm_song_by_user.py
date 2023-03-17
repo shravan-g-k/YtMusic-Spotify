@@ -15,6 +15,7 @@ async def add_songs_to_dict():
     return list_of_songs
 
 def get_confirmation():
+    global list_of_songs
     """Gets confirmation from the user whearther the songs fetched math the songs searched in spotify"""
     print("\nDoes the song written next to your playlist song match them ?")
     a = input("If yes PRESS 'Y'   else PRESS 'N' : ")
@@ -24,7 +25,7 @@ def get_confirmation():
     elif a == 'N':
         print("SORRY , Looks like there isnt any perfect match for the song you are looking for")
         rm_s_n  = int(input("Enter the Number present left to the song to remove it from adding to spotify : "))
-        list_of_songs.pop(list(list_of_songs)[rm_s_n])
+        list_of_songs = list_of_songs.pop(list(list_of_songs)[rm_s_n])
         format_output()
     else:
         raise TypeError
